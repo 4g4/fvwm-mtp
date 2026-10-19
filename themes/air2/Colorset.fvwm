@@ -14,7 +14,7 @@ Colorset 4 RootTransparent buffer, fg black, bg black, hi black, sh black, tint 
 Colorset 5 fg white, bg black, hi black
 
 ## Borders and window titles
-Colorset 6 RootTransparent buffer, tint rgb:D4/AB/7B 50
+Colorset 6 RootTransparent buffer, tint rgb:D4/AB/7B 80
 Colorset 7 RootTransparent buffer, tint rgb:D4/AB/7B 45
 
 ## Icons

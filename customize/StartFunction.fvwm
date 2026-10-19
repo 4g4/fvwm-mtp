@@ -9,5 +9,6 @@ AddToFunc StartFunction
 #	+ I Test (Init) Exec xload -update 1 -geometry 164x164-0+425
     + I Test (Init) Exec spectacle -s &
     + I Test (Init) Exec clash-verge
+    + I Test (Init) Exec conky &
 #   + I ModulePath /home/algouage/fun/fvwm-mtp/scripts:+
 #   + I Module flash.pl
