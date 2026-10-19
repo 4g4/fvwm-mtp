@@ -8,6 +8,7 @@ SetEnv themes MixedThemePackage/themes
 # Read $[themes]/air1/air1-1920x1200.fvwm
 # Read $[themes]/air1/air1-2560x1440.fvwm
 # Read $[themes]/air2/air2.fvwm
+Read $[themes]/air2/air2-2560x1440.fvwm
 # Read $[themes]/blue/blue.fvwm
 # Read $[themes]/bluestripes/bluestripes-1280x1024.fvwm
 # Read $[themes]/bluestripes/bluestripes-1920x1200.fvwm
@@ -16,10 +17,12 @@ SetEnv themes MixedThemePackage/themes
 # Read $[themes]/cable/cable-1920x1200.fvwm
 # Read $[themes]/deer/deer.fvwm
 # Read $[themes]/green/green.fvwm
+# Read $[themes]/green/green-2560x1440.fvwm
 # Read $[themes]/greenstripes/greenstripes-1280x1024.fvwm
 # Read $[themes]/greenstripes/greenstripes-2560x1440.fvwm
 # Read $[themes]/meadow/meadow.fvwm
 # Read $[themes]/orange/orange.fvwm
+# Read $[themes]/orange/orange-2560x1440.fvwm
 # Read $[themes]/pink/pink-1280x1024.fvwm
 # Read $[themes]/pink/pink-1920x1200.fvwm
 # Read $[themes]/pink/pink-2560x1440.fvwm
@@ -29,6 +32,6 @@ SetEnv themes MixedThemePackage/themes
 # Read $[themes]/wheat/wheat-1280x1024.fvwm
 # Read $[themes]/wheat/wheat-1920x1200.fvwm
 # Read $[themes]/wheat/wheat-2560x1440.fvwm
-Read $[themes]/wheat/wheat-custom.fvwm
+# Read $[themes]/wheat/wheat-custom.fvwm
 
 UnsetEnv themes
