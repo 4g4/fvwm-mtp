@@ -19,24 +19,18 @@ Key Page_Down A 4 GotoPage 2 1
 
 # Resize
 Key F WTSF1246 4 Maximize 100 100
-Key Return WTSF1246 4 Maximize 100 100
 
 Key Up WTSF1246 4 Maximize 0 100
-Key Right WTSF1246 4 Maximize 100 0
-
-## Super-W, Super-A, Super-S, Super-D to change Page
 
 # Go one page DOWN
-Key Down A 4 GotoPage wrapy 0p +1p
-Key S A 4 GotoPage wrapy 0p +1p
+Key Down A CM GotoPage wrapy 0p +1p
 # Go one page UP
-Key W A 4 GotoPage wrapy 0p -1p
+Key Up A CM GotoPage wrapy 0p -1p
 
 # Go one page LEFT
-Key Left A 4 GotoPage wrapx -1p 0p
-Key A A 4 GotoPage wrapx -1p 0p
+Key Left A CM GotoPage wrapx -1p 0p
 # Go one page RIGHT
-Key D A 4 GotoPage wrapx +1p 0p
+Key Right A CM GotoPage wrapx +1p 0p
 
 Key KP_Add WTSF1246 N WindowSizeIncrease
 Key KP_Subtract WTSF1246 N WindowSizeDecrease
@@ -48,9 +42,9 @@ Key KP_Home WTSF1246 N WindowTopLeft
 Key KP_Up WTSF1246 N WindowTopCenter
 Key KP_Prior WTSF1246 N WindowTopRight
 
-Key KP_Left WTSF1246 N WindowMiddleLeft
+Key Left WTSF1246 4 WindowMiddleLeft
+Key Right WTSF1246 4 WindowMiddleRight
 Key KP_Begin WTSF1246 N WindowMiddleCenter
-Key KP_Right WTSF1246 N WindowMiddleRight
 
 Key KP_End WTSF1246 N WindowBottomLeft
 Key KP_Down WTSF1246 N WindowBottomCenter
@@ -64,5 +58,6 @@ Key L A 4 Exec xautolock -locknow
 Key Menu A N Popup MenuMain
 Key Pause WTSF1246 N Thumbnail
 Key plus A 4 Terminal
+Key Return A 4 Terminal
 Key Tab A M WindowList (CurrentPage !Desk*) CurrentAtEnd, NoCurrentDeskTitle, NoHotkeys
 Key D A 4 Exec rofi -show run
