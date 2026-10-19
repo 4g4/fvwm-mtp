@@ -110,7 +110,8 @@ Test (EnvIsSet theme_menu_font) MenuStyle * Font "xft:$[theme_menu_font]:size=$[
 ## Focus policy
 ##
 
-FocusStyle FocusFollowsMouse
+# FocusStyle FocusFollowsMouse
+Style * SloppyFocus
 
 
 
@@ -245,6 +246,8 @@ AddToFunc Thumbnail
 DestroyFunc DeThumbnail
 AddToFunc DeThumbnail
 	+ I PipeRead 'bash $[mtp_scripts]/thumbnail-destroy "$[w.id]" "$[mtp_tmp]"'
+    + I Focus
+    + I WarpToWindow 50 50
 
 *FvwmEvent: deiconify DeThumbnail
 
